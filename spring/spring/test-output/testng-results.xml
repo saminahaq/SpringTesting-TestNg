@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4974" started-at="2019-04-11T03:40:48Z" finished-at="2019-04-11T03:40:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4974" started-at="2019-04-11T03:40:48Z" finished-at="2019-04-11T03:40:53Z">
+      <class name="samina.example.spring.SpringBootHelloWorldTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="17" started-at="2019-04-10T20:40:48Z" finished-at="2019-04-10T20:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4410" started-at="2019-04-10T20:40:48Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-04-10T20:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="setup" is-config="true" duration-ms="29" started-at="2019-04-10T20:40:52Z" finished-at="2019-04-10T20:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2019-04-10T20:40:52Z" finished-at="2019-04-10T20:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void samina.example.spring.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testEmployee()[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="testEmployee" duration-ms="492" started-at="2019-04-10T20:40:52Z" finished-at="2019-04-10T20:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-04-10T20:40:53Z" finished-at="2019-04-10T20:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void samina.example.spring.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:samina.example.spring.SpringBootHelloWorldTests@4116aac9]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-04-10T20:40:53Z" finished-at="2019-04-10T20:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- samina.example.spring.SpringBootHelloWorldTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
